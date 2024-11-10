@@ -86,3 +86,8 @@ app.get("/api/shorturl/:shorturl", async (req, res) => {
 app.listen(port, function () {
   console.log(`Listening on port ${port}`);
 });
+
+
+const errorObject = {
+  error: "invalid url"
+};
